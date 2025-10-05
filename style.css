@@ -444,14 +444,26 @@
                 box-shadow: 0 10px 20px rgba(255, 63, 63, 0.4);
             }
 
-                .nav a,
-                .nav a:visited,
-                .nav a:hover,
+               .nav a {
+                    color: beige;          /* normal link */
+                    text-decoration: none;
+                }
+                
+                .nav a:visited {
+                    color: beige;          /* visited link */
+                }
+                
+                .nav a:hover {
+                    color: beige;          /* hover */
+                    text-decoration: underline;
+                    box-shadow: 0 0 10px 1px palevioletred;
+                }
+                
                 .nav a:active,
                 .nav a:focus {
-                    color: beige;
-                    text-decoration: none; /* optional: remove underline */
+                    color: beige;          /* active/focus */
                 }
+
 
 
 
@@ -1010,3 +1022,4 @@
 
 
    
+
