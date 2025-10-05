@@ -444,6 +444,15 @@
                 box-shadow: 0 10px 20px rgba(255, 63, 63, 0.4);
             }
 
+                .nav a,
+                .nav a:visited,
+                .nav a:hover,
+                .nav a:active,
+                .nav a:focus {
+                    color: beige;
+                    text-decoration: none; /* optional: remove underline */
+                }
+
 
 
        
@@ -994,6 +1003,7 @@
 
 
 }
+
 
 
 
